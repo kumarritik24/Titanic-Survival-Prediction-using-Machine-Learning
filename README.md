@@ -61,11 +61,11 @@ The models are evaluated based on accuracy, precision, recall, and F1-score. Log
 
 ## Future Improvements
 
-Experimenting with other machine learning models.
+- Experimenting with other machine learning models.
 
-Hyperparameter tuning for better accuracy.
+- Hyperparameter tuning for better accuracy.
 
-Implementing deep learning models.
+- Implementing deep learning models.
 
 ## Contributing
 Feel free to fork this repository and make contributions.
