@@ -38,13 +38,17 @@ The models are evaluated based on accuracy, precision, recall, and F1-score. Log
 
 ## Installation & Usage
 1. Clone the repository:
+   
    git clone https://github.com/your-username/titanic-ml-prediction.git
+   
    cd titanic-ml-prediction
    
 2. Install dependencies:
+   
    pip install -r requirements.txt
    
 3. Run the Jupyter Notebook:
+   
    jupyter notebook final_notebook.ipynb
 
 ## Future Improvements
@@ -56,6 +60,4 @@ Implementing deep learning models.
 Feel free to fork this repository and make contributions.
 
 ## License
-This project is open-source and available under the MIT License.
-
-You can **copy and paste** this directly into your `README.md` file on GitHub! Let me know if you need any modifications. 🚀
+This project is open-source and available under the MIT License🚀.
