@@ -60,8 +60,11 @@ The models are evaluated based on accuracy, precision, recall, and F1-score. Log
    jupyter notebook final_notebook.ipynb
 
 ## Future Improvements
+
 Experimenting with other machine learning models.
+
 Hyperparameter tuning for better accuracy.
+
 Implementing deep learning models.
 
 ## Contributing
