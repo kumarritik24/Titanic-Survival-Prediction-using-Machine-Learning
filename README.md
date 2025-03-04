@@ -42,7 +42,7 @@ The dataset used in this project is the **Titanic dataset**, which contains info
 - `scikit-learn` - Machine learning models and preprocessing
 
 ## Results
-The models are evaluated based on accuracy, precision, recall, and F1-score. Logistic Regression and Random Forest models were trained, and their performance was analyzed.
+The models are evaluated based on accuracy, precision, recall, and F1-score. Logistic Regression, Random Forest, K-Nearest Neighbors, Support Vector Classifier, and Naive Bayes models were trained, and their performance was analyzed. Additionally, K-Means and DBSCAN clustering were used for unsupervised analysis.
 
 ## Installation & Usage
 1. Clone the repository:
