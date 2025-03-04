@@ -19,9 +19,17 @@ The dataset used in this project is the **Titanic dataset**, which contains info
    - Encoding categorical variables.
    - Feature scaling using `StandardScaler`.
 5. **Model Training:**
+   - **Supervised Learning Models:**
    - Logistic Regression
    - Random Forest Classifier
-6. **Model Evaluation:**
+   - K-Nearest Neighbors (KNN)
+   - Support Vector Classifier (SVC)
+   - Naive Bayes Classifier
+   - **Unsupervised Learning Models:**
+   - K-Means Clustering
+   - DBSCAN Clustering
+   - Hierachieral Clustering
+7. **Model Evaluation:**
    - Accuracy Score
    - Confusion Matrix
    - Classification Report
