@@ -1,74 +1,102 @@
-# Titanic Survival Prediction using Machine Learning
+# 🚢 Titanic Survival Prediction using Machine Learning
 
-## Overview
-This project applies Machine Learning techniques to predict the survival of Titanic passengers. It explores various data preprocessing, visualization, and model-building techniques to enhance predictive accuracy.
+🎯 Built an end-to-end machine learning pipeline to predict passenger survival in the Titanic dataset. Applied classification models (SVM, Random Forest, Logistic Regression) and achieved strong results using feature engineering, visualization, and evaluation metrics.
 
-## Dataset
-The dataset used in this project is the **Titanic dataset**, which contains information about passengers, including age, gender, class, and survival status.
+---
 
-## Features & Workflow
-1. **Loading Dataset:** Read the Titanic dataset using pandas.
-2. **Exploratory Data Analysis (EDA):**
-   - Checking missing values, data types, and statistics.
-   - Understanding feature distributions using histograms and boxplots.
-3. **Data Visualization:**
-   - Correlation heatmaps.
-   - Survival rate analysis based on various features.
-4. **Data Preprocessing:**
-   - Handling missing values.
-   - Encoding categorical variables.
-   - Feature scaling using `StandardScaler`.
-5. **Model Training:**
-   - **Supervised Learning Models:**
-   - Logistic Regression
-   - Random Forest Classifier
-   - K-Nearest Neighbors (KNN)
-   - Support Vector Classifier (SVC)
-   - Naive Bayes Classifier
-   - **Unsupervised Learning Models:**
-   - K-Means Clustering
-   - DBSCAN Clustering
-   - Hierachieral Clustering
-7. **Model Evaluation:**
-   - Accuracy Score
-   - Confusion Matrix
-   - Classification Report
+## 📁 Project Overview
 
-## Libraries Used
-- `pandas` - Data manipulation
-- `numpy` - Numerical computations
-- `matplotlib` - Data visualization
-- `seaborn` - Statistical graphics
-- `scikit-learn` - Machine learning models and preprocessing
+This project applies classic ML techniques to predict the survival of Titanic passengers. It involves:
 
-## Results
-The models are evaluated based on accuracy, precision, recall, and F1-score. Logistic Regression, Random Forest, K-Nearest Neighbors, Support Vector Classifier, and Naive Bayes models were trained, and their performance was analyzed. Additionally, K-Means and DBSCAN clustering were used for unsupervised analysis.
+- Cleaning and preprocessing data
+- Feature extraction and transformation
+- Exploratory data analysis (EDA)
+- Applying supervised & unsupervised models
+- Model evaluation using classification metrics
 
-## Installation & Usage
-1. Clone the repository:
-   
-   git clone https://github.com/your-username/titanic-ml-prediction.git
-   
-   cd titanic-ml-prediction
-   
-2. Install dependencies:
-   
-   pip install -r requirements.txt
-   
-3. Run the Jupyter Notebook:
-   
-   jupyter notebook final_notebook.ipynb
+---
 
-## Future Improvements
+## 📊 Dataset
 
-- Experimenting with other machine learning models.
+The dataset used is the **Titanic dataset**, which includes information like:
+- Passenger ID, Name
+- Age, Gender, Class
+- Fare, Embarked Port
+- Survival status
 
-- Hyperparameter tuning for better accuracy.
+---
 
-- Implementing deep learning models.
+## 🔍 Features & Workflow
 
-## Contributing
-Feel free to fork this repository and make contributions.
+<details>
+  <summary>📦 Data Processing & Feature Engineering</summary>
 
-## License
-This project is open-source and available under the MIT License🚀.
+- Handled missing values and outliers
+- Extracted features like `Title`, `FamilySize`, `IsAlone`
+- One-hot encoded categorical variables
+- Correlation heatmap + feature importance
+
+</details>
+
+<details>
+  <summary>📈 Exploratory Data Analysis (EDA)</summary>
+
+- Distribution plots for Age, Fare, Class
+- Survival rate by Gender, Class, Embarked
+- Cross-tab visualizations
+</details>
+
+<details>
+  <summary>🤖 Model Training & Evaluation</summary>
+
+- **Supervised Models**:
+  - Logistic Regression
+  - Random Forest Classifier
+  - SVM
+  - K-Nearest Neighbors (KNN)
+  - Naive Bayes
+- **Unsupervised Models**:
+  - K-Means Clustering
+  - DBSCAN Clustering
+- **Model Metrics**:
+  - Accuracy, F1-score, Recall
+  - Confusion Matrix
+  - ROC-AUC Score
+
+</details>
+
+---
+
+## 🧰 Tools & Libraries
+
+- `pandas`, `numpy` – Data manipulation
+- `matplotlib`, `seaborn` – Data visualization
+- `scikit-learn` – Modeling & preprocessing
+- `jupyter notebook` – Development interface
+
+---
+
+## 🧪 Results
+
+The models were evaluated on:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+💡 Achieved high predictive performance using Random Forest and SVM models with properly tuned hyperparameters.
+
+---
+
+## ⚙️ Installation & Usage
+
+```bash
+# Clone the repo
+git clone https://github.com/kumarritik24/Titanic-Survival-Prediction-using-Machine-Learning.git
+cd Titanic-Survival-Prediction-using-Machine-Learning
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook titanic-ml.ipynb
